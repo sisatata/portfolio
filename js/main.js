@@ -28,7 +28,7 @@
     });
     $('#myBtn').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".hobby").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".home").offset().top}, 500);
     });
 
 })(jQuery);
@@ -43,4 +43,15 @@ function scrollFunction() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
+var myVar;
 
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+    document.body.style.background='black';
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+    document.body.style.background="fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bright_squares.png')";
+}

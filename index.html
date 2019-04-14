@@ -9,204 +9,212 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-<button id="myBtn" title="Go to top">Top</button>
+<body onload="myFunction()">
 
-<nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark">
+<div id="loader"></div>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    <button id="myBtn" title="Go to top">Top</button>
+    
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#" id="home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="life">Student Life</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="skill">Skill</a>
-            </li>
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark">
 
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="hobby">Hobby</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="achieve">Achievement</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="contact">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="p-info">Personal Info</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="project">Projects</a>
-            </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="life">Student Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="skill">Skill</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="hobby">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="achieve">Achievement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="p-info">Personal Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="project">Projects</a>
+                </li>
 
 
-        </ul>
-
-    </div>
-</nav>
-
-<div class="skill">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="content">
-
-                </div>
-            </div>
+            </ul>
 
         </div>
-    </div>
-</div>
-<div class="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="img">
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="hobby">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="content">
-                    <h2 class="text-center">Hobby</h2>
-                    <div class="elements">
-                        <h4>Sports</h4>
-                        <h4>Gaming</h4>
-                        <h4>Travelling</h4>
-                        <h4>And lots of more....</h4>
+    </nav>
+    <div class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="home-img">
+                        <img src="img/17361959_719998228159470_4140672358507499932_n.jpg" alt="img">
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="student-life">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="undergrade">
-                    <h2 class="text-center">Student Life</h2>
-
-                    <h4>Undergraduation</h4>
+    <div class="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                     <div class="content">
-                        <h6>University:<span> Jahangirnagar University</span></h6>
-                        <h6>Department/Institute:<span> Institute of Information Technology</span></h6>
-                        <h6>Session: <span>2013-2014</span></h6>
-                        <h6>Status: <span>Completed</span></h6>
-                    </div>
 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="hobby">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content">
+                        <h2 class="text-center">Hobby</h2>
+                        <div class="elements">
+                            <h4>Sports</h4>
+                            <h4>Gaming</h4>
+                            <h4>Travelling</h4>
+                            <h4>And lots of more....</h4>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="higher">
-                    <h4>Higher Secondary</h4>
-                    <div class="content">
-                        <h6>College:<span> Govt.Science College</span></h6>
-                        <h6>Group:<span> Science</span></h6>
-                        <h6>Session: <span>2011-2013</span></h6>
-                        <h6>Status: <span>Completed</span></h6>
-                    </div>
+    </div>
+    <div class="student-life">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="undergrade">
+                        <h2 class="text-center">Student Life</h2>
 
+                        <h4>Undergraduation</h4>
+                        <div class="content">
+                            <h6>University:<span> Jahangirnagar University</span></h6>
+                            <h6>Department/Institute:<span> Institute of Information Technology</span></h6>
+                            <h6>Session: <span>2013-2014</span></h6>
+                            <h6>Status: <span>Completed</span></h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="higher">
+                        <h4>Higher Secondary</h4>
+                        <div class="content">
+                            <h6>College:<span> Govt.Science College</span></h6>
+                            <h6>Group:<span> Science</span></h6>
+                            <h6>Session: <span>2011-2013</span></h6>
+                            <h6>Status: <span>Completed</span></h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="secondary">
+                        <h4>Secondary</h4>
+                        <div class="content">
+                            <h6>School:<span> Govt.Science School</span></h6>
+                            <h6>Group:<span> Science</span></h6>
+                            <h6>Session: <span>2005-2010</span></h6>
+                            <h6>Status: <span>Completed</span></h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="primary">
+                        <h4>Primary</h4>
+                        <div class="content">
+                            <h6>School:<span> Tejgaon Cathlic Primary School</span></h6>
+
+                            <h6>Session: <span>1999-2005</span></h6>
+                            <h6>Status: <span>Completed</span></h6>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="secondary">
-                    <h4>Secondary</h4>
-                    <div class="content">
-                        <h6>School:<span> Govt.Science School</span></h6>
-                        <h6>Group:<span> Science</span></h6>
-                        <h6>Session: <span>2005-2010</span></h6>
-                        <h6>Status: <span>Completed</span></h6>
-                    </div>
+    </div>
 
+    <div class="personal-info">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Personal Information</h2>
+                    <div class="information">
+                        <h3>Full Name : Md. Sadiqul Islam</h3>
+                        <h3>Home Town : Tangail</h3>
+                        <h3>Birth Place: Tangail</h3>
+                        <h3>Religion : Islam </h3>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="primary">
-                    <h4>Primary</h4>
-                    <div class="content">
-                        <h6>School:<span> Tejgaon Cathlic Primary School</span></h6>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content  text-center">
+                        <h2 class="text-center">Contatct</h2>
+                        <a href="tel:+8801610196919">For any query please call me at: +8801610196919</a>
+                        <h4>Or</h4>
+                        <div class="social">
 
-                        <h6>Session: <span>1999-2005</span></h6>
-                        <h6>Status: <span>Completed</span></h6>
+                            <a href="https://www.facebook.com/sadiqulislam.satata.5" target="_blank"><i
+                                    class="icofont-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/md-sadiqul-islam-satata-a86239170/" target="_blank"><i
+                                    class="icofont-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/md-sadiqul-islam-satata-a86239170/" target="_blank"><i
+                                    class="icofont-skype"></i></a>
+                        </div>
                     </div>
+                    <h4 class="text-center">Send Your Message</h4>
+                    <form method="post" action="/index.php">
+                        <div class="form-group">
+                            <input type="email" name="mail" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Enter email" required="1">
+                        </div>
+                        <div class="form-group">
+                        <textarea class="form-control" name="msg" id="exampleFormControlTextarea1" rows="3"
+                                  placeholder="Your Message ...." required="1"></textarea>
+                        </div>
+                        <button name="send_mail" class="btn btn-sm btn-primary form-control" type="submit">Submit
+                        </button>
+                    </form>
 
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="personal-info">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-center">Personal Information</h2>
-                <div class="information">
-                    <h3>Full Name : Md. Sadiqul Islam</h3>
-                    <h3>Home Town : Tangail</h3>
-                    <h3>Birth Place: Tangail</h3>
-                    <h3>Religion : Islam </h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="content  text-center">
-                    <h2 class="text-center">Contatct</h2>
-                    <a href="tel:+8801610196919">For any query please call me at: +8801610196919</a>
-                    <h4>Or</h4>
-                    <div class="social">
-
-                        <a href="https://www.facebook.com/sadiqulislam.satata.5" target="_blank"><i
-                                class="icofont-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/md-sadiqul-islam-satata-a86239170/" target="_blank"><i
-                                class="icofont-linkedin"></i></a>
-                        <a href="https://www.linkedin.com/in/md-sadiqul-islam-satata-a86239170/" target="_blank"><i
-                                class="icofont-skype"></i></a>
-                    </div>
-                </div>
-                <h4 class="text-center">Send Your Message</h4>
-                <form method="post" action="/index.php">
-                    <div class="form-group">
-                        <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="1">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="msg" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message ...." required="1"></textarea>
-                    </div>
-                    <button name="send_mail" class="btn btn-sm btn-primary form-control" type="submit">Submit</button>
-                </form>
-
-            </div>
-        </div>
-    </div>
-</div>
-
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
