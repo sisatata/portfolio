@@ -14,6 +14,26 @@ h2 {
     margin-top: 10px;
     padding: 10px 0;
 }
+/*scroll top btn*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
 
 
 /*Personal info part*/
@@ -29,8 +49,8 @@ h2 {
 .personal-info h2 {
     max-width: 550px;
     margin: 30px auto;
-    background: #283048;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #283048; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -99,14 +119,14 @@ h2 {
 }
 
 .student-life h2 {
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /*Links part*/
-.contact{
+.contact {
     background-image: url("../img/contact.jpg");
     background-size: cover;
     background-position: center;
@@ -116,9 +136,11 @@ h2 {
     margin: 30px 0;
 
 }
-.contact .content{
+
+.contact .content {
     padding: 30px 0;
 }
+
 .contact:before {
     content: '';
     background: rgba(0, 0, 0, .5);
@@ -130,6 +152,7 @@ h2 {
     left: 0;
     z-index: 0;
 }
+
 .contact i {
     font-size: 60px;
 }
@@ -141,7 +164,8 @@ h2 {
     color: aliceblue;
 
 }
-.contact h2{
+
+.contact h2 {
     background: #DC2424;
     background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
     background: linear-gradient(to right, #4A569D, #DC2424);
@@ -152,12 +176,18 @@ h2 {
     color: green;
     transition: 0.5s;
 }
-
-
-.contact i:hover {
-    transform: scale(1.1);
+.contact h4{
+    color: bisque;
 }
 
+
+.contact i:hover{
+    font-size: 50px;
+}
+form{
+    max-width: 300px;
+    margin: 40px auto;
+}
 
 
 /*Hobby part*/
@@ -197,8 +227,8 @@ h2 {
 
 .hobby h2 {
     margin: 60px auto;
-    background: #ad5389;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #ad5389; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }

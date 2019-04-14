@@ -26,4 +26,21 @@
 
         $('html,body').animate({scrollTop: $(".skill").offset().top}, 500);
     });
+    $('#myBtn').on("click", function () {
+
+        $('html,body').animate({scrollTop: $(".hobby").offset().top}, 500);
+    });
+
 })(jQuery);
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
