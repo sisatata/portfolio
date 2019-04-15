@@ -1,5 +1,30 @@
 (function ($) {
     "use strict";
+    $('.project .owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        autoplayHoverPause:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+
 
 
     $('#contact').on("click", function () {
@@ -30,8 +55,15 @@
 
         $('html,body').animate({scrollTop: $(".home").offset().top}, 500);
     });
+    $('#project').on("click", function () {
+
+        $('html,body').animate({scrollTop: $(".project").offset().top}, 500);
+    });
+    $('#tabs').tabs({ active: 0 });
 
 })(jQuery);
+
+//Javascript
 window.onscroll = function () {
     scrollFunction()
 };
