@@ -1,0 +1,22 @@
+@media (max-width: 576px){
+    /*h2 part*/
+.hooby h2,.contact h2, .project h2, .personal-info h2, .student-life h2,.skill h2{
+    font-size: 40px;
+}
+
+    /*project part*/
+    .project h3{
+        font-size: 25px;
+    }
+    .project p, .project a{
+        font-size: 20px;
+    }
+
+    /*clock*/
+    .clock {
+
+        right: -102px;
+        font-size: 25px;
+
+    }
+}
