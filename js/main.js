@@ -63,7 +63,13 @@
 
         $('html,body').animate({scrollTop: $(".home").offset().top}, 500);
     });
+    $('#resource').on("click", function () {
 
+        $('html,body').animate({scrollTop: $(".resources").offset().top}, 500);
+    });
+
+
+    $("#tabs").tabs({hide: {effect: "fade", duration: 300}, show: {effect: "fade", duration: 300},});
 
     $('#tabs').tabs({ active: 0 });
 

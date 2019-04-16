@@ -36,7 +36,7 @@ h2 {
 /*Home part*/
 .home{
     margin: 30px 0;
-    background-image: url("../img/home.jpg");
+    background-image: url("../img/home (3).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ h2 {
 /*Personal info part*/
 .personal-info {
     margin: 30px 0;
-    background-image: url("../img/personal.jpg");
+    background-image: url("../img/personal (2).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ h2 {
 }
 
 .information h3 {
-    color: darkturquoise;
+    color: white;
 
 }
 
@@ -141,12 +141,12 @@ h2 {
 /*Student part*/
 .student-life span {
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 .student-life {
     margin-bottom: 30px;
-    background-image: url("../img/books.jpg");
+    background-image: url("../img/books (2).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,13 +189,14 @@ h2 {
 
 /*Links part*/
 .contact {
-    background-image: url("../img/contact.jpg");
+    background-image: url("../img/contact (2).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 50px;
     position: relative;
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 0;
 
 }
 
@@ -268,7 +269,7 @@ form {
 /*Hobby part*/
 .hobby {
     margin-bottom: 30px;
-    background-image: url("../img/hobby.jpg");
+    background-image: url("../img/hobby (2).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -356,10 +357,12 @@ form {
 
 /*Skill*/
 .skill {
-    background: #1A2980; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin: 30px 0;
+    margin-bottom: 30px;
+    background-image: url("../img/skill (2).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 
 }
 
@@ -502,4 +505,65 @@ nav{
 
 
 
+}
+/* position: absolute; */
+div#MyClockDisplay {
+    position: absolute;
+    top: 31px;
+}
+/*Resource part*/
+.resources {
+    margin-bottom: 30px;
+    background-image: url("../img/resources (2).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.resources h2{
+    background: #403A3E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.resources:before {
+    content: '';
+    background: rgba(0, 0, 0, .5);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.resources .content ul{
+    margin: 15px 0;
+}
+
+.resources .content li{
+    list-style-type: none;
+}
+.resources .content li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+}
+.resources h3{
+    font-weight: 400;
+
+}
+.resources .content{
+
+    margin: 20px 0;
+
+}
+/*Footer*/
+footer .footer-bottom{
+    background: #990000 ;
+}
+footer .footer-bottom p{
+    color: white;
+    margin: 0;
 }
