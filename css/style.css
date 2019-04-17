@@ -181,6 +181,7 @@ h2 {
 }
 
 .student-life h2 {
+    margin-top: 36px;
     background: #232526; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -302,7 +303,8 @@ form {
 }
 
 .hobby h2 {
-    margin: 60px auto;
+    margin-top: 39px;
+    margin: 39px auto 60px auto;
     background: #ad5389; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -335,6 +337,9 @@ form {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+.project h2 {
+    margin-top: 37px;
 }
 
 .project .content h2, h3 {
@@ -412,6 +417,7 @@ form {
 }
 
 .skill h2 {
+    margin-top: 36px;
     background: #334d50; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #cbcaa5, #334d50); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -525,6 +531,8 @@ div#MyClockDisplay {
     background: #403A3E;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 38px;
 
 }
 .resources:before {
