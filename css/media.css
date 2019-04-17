@@ -19,16 +19,44 @@
         font-size: 25px;
 
     }
+    /*Font size*/
+    h1{
+        font-size: 30px!important;
+    }
     h2{
-        font-size: 25px;
+        font-size: 25px!important;
     }
     h3{
-        font-size: 20px;
+        font-size: 20px!important;
     }
     h4{
-        font-size: 20px;
+        font-size: 20px!important;
     }
-    h5,h6{
-        font-size: 15px;
+    h5,h6,a{
+        font-size: 18px!important;
+    }
+    p{
+        font-size: 15px!important;
+    }
+    .hobby .elements,.hobby .content {
+        padding: 20px 0;
+    }
+    .hobby h2, .personal-info,.student-life h2{
+        margin: 0;
+
+    }
+    .contact .content{
+        padding-top: 0;
+    }
+    .personal-info h2, .resources h2,.skill h2,.contact h2{
+
+        margin-top: 20px;
+
+    }
+    .student-life h4{
+        margin-top: 15px;
+    }
+    .student-life .undergrade{
+        padding: 20px 0;
     }
 }
