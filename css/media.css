@@ -27,7 +27,7 @@
         font-size: 25px!important;
     }
     h3{
-        font-size: 20px!important;
+        font-size: 17px!important;
     }
     h4{
         font-size: 20px!important;
@@ -58,5 +58,15 @@
     }
     .student-life .undergrade{
         padding: 20px 0;
+    }
+    .student-life .content {
+        padding: 10px 0;
+    }
+    .project .content {
+        text-align: center;
+        padding: 0;
+    }
+    .skill li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab{
+        width: 47%;
     }
 }

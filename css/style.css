@@ -7,22 +7,11 @@ body {
 
 }
 
-.bg::before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
 
-}
 
 h2 {
     color: honeydew;
-    font-size: 50px;
+    font-size: 40px;
     max-width: 400px;
     margin: 0 auto;
     background-color: brown;
@@ -35,26 +24,13 @@ h2 {
 /*scroll top btn*/
 /*Home part*/
 .home{
-    margin: 30px 0;
-    background-image: url("../img/home (3).jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
     position: relative;
+    background: #1B3359;
 
 }
-.home::before{
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
 
-}
 
 .home img {
     height: 150px;
@@ -100,37 +76,29 @@ h2 {
 
 /*Personal info part*/
 .personal-info {
-    margin: 30px 0;
-    background-image: url("../img/personal (2).jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
+
     position: relative;
+    background: #EEEEEE;
+
 }
 
 .personal-info h2 {
     max-width: 550px;
     margin: 30px auto;
+    margin-top: 40px;
     background: #232526; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.personal-info:before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
+
 
 .information h3 {
-    color: white;
+    color: black;
+    font-weight: 400;
 
 }
 
@@ -141,26 +109,21 @@ h2 {
 /*Student part*/
 .student-life span {
     font-weight: 700;
-    color: white;
+    color: black;
 }
 
 .student-life {
-    margin-bottom: 30px;
-    background: #00416A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #EEEEEE;
 
     position: relative;
 
 }
 
 .student-life h6 {
-    color: orange;
+    color: navy;
 }
 
-.student-life h4 {
-    color: aquamarine;
-}
+
 
 .student-life .content {
 
@@ -168,36 +131,22 @@ h2 {
 
 }
 
-.student-life:before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
+
 
 .student-life h2 {
     margin-top: 36px;
     background: #232526; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    margin-bottom: 70px;
 }
 
 /*Links part*/
 .contact {
-    background-image: url("../img/contact (2).jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 50px;
+    background: #1B3359;
+
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 0;
+
 
 }
 
@@ -205,17 +154,6 @@ h2 {
     padding: 30px 0;
 }
 
-.contact:before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
 
 .contact i {
     font-size: 60px;
@@ -233,6 +171,7 @@ h2 {
     background: #232526; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526);
+    margin-bottom: 67px;
 
 }
 
@@ -269,37 +208,25 @@ form {
 
 /*Hobby part*/
 .hobby {
-    margin-bottom: 30px;
-    background-image: url("../img/hobby (2).jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 50px;
+
+
+    background: white;
+
     position: relative;
 
 }
 
-.hobby:before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
 
 .hobby h4 {
-    color: honeydew;
-    font-weight: 700;
-    text-shadow: 2px 2px brown;
+    color: black;
+    font-weight: 400;
 
 }
 
 .hobby .elements {
-    padding: 70px 0;
+
+    padding-top: 10px;
+    padding-bottom: 33px;
 }
 
 .hobby h2 {
@@ -318,11 +245,16 @@ form {
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.project{
+    background: #eeeeee;
+    margin-top: -10px;
+}
 
 .project .content {
 
     text-align: center;
-    padding: 50px;
+    margin-top: 68px;
+    margin-bottom: 33px;
 }
 
 .project a:hover {
@@ -333,9 +265,10 @@ form {
 .project a {
     font-size: 40px;
     padding-bottom: 100px;
+    color: black;
 
     text-decoration: none;
-    color: white;
+
     font-weight: 500;
 }
 .project h2 {
@@ -344,7 +277,7 @@ form {
 
 .project .content h2, h3 {
     font-weight: 700;
-    color: aquamarine;
+
 }
 
 .project .owl-theme .owl-nav {
@@ -357,15 +290,14 @@ form {
 
 .project p {
     font-size: 25px;
-    color: yellow;
+    color: navy;
+
 }
 
 /*Skill*/
 .skill {
-    margin-bottom: 30px;
-    background: #1f4037;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   background: white;
 
     position: relative;
 
@@ -381,12 +313,14 @@ form {
     background: unset;
     border: unset;
     border-bottom: 2px solid orange;
-    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 52px;
 }
 
 .skill .ui-widget.ui-widget-content {
     background: unset;
     border: unset;
+    margin-bottom: 10px;
 }
 
 
@@ -424,6 +358,9 @@ form {
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: navy;
 }
 
 /*Loader*/
@@ -520,11 +457,8 @@ div#MyClockDisplay {
 }
 /*Resource part*/
 .resources {
-    margin-bottom: 30px;
-    background: #334d50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    background: white;
     position: relative;
 
 }
@@ -536,17 +470,7 @@ div#MyClockDisplay {
     margin-top: 38px;
 
 }
-.resources:before {
-    content: '';
-    background: rgba(0, 0, 0, .5);
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
+
 .resources .content ul{
     margin: 15px 0;
 }
@@ -555,17 +479,20 @@ div#MyClockDisplay {
     list-style-type: none;
 }
 .resources .content li a{
-    color: aliceblue;
+    color: navy;
     text-decoration: none;
     font-size: 25px;
 }
 .resources h3{
     font-weight: 400;
+    color: black;
 
 }
 .resources .content{
 
-    margin: 20px 0;
+
+    margin-top: 66px;
+    margin-bottom: 38px;
 
 }
 /*Footer*/

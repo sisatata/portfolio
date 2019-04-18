@@ -1,77 +1,74 @@
 (function ($) {
     "use strict";
+    /*js for carpusel*/
     $('.project .owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        autoplayHoverPause:true,
-        autoplay:true,
-        autoplayTimeout:3000,
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
 
-        responsive:{
-            0:{
-                items:1,
-                nav:true
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
             },
-            600:{
-                items:1,
-                nav:false
+            600: {
+                items: 1,
+                nav: false
             },
-            1000:{
-                items:1,
-                nav:true,
-                loop:true
+            1000: {
+                items: 1,
+                nav: true,
+                loop: true
             }
         }
     })
-
-
+/*scrolling*/
 
     $('#contact').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".contact").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".contact").offset().top - 90}, 500);
     });
     $('#life').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".student-life").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".student-life").offset().top - 90}, 500);
     });
     $('#p-info').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".personal-info").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".personal-info").offset().top - 90}, 500);
     });
-    $('#achieve').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".achievment").offset().top}, 500);
-    });
     $('#hobby').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".hobby").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".hobby").offset().top - 90}, 500);
     });
     $('#skill').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".skill").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".skill").offset().top - 90}, 500);
     });
     $('#myBtn').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".home").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".home").offset().top - 90}, 500);
     });
     $('#project').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".project").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".project").offset().top - 90}, 500);
     });
     $('#home').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".home").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".home").offset().top - 90}, 500);
     });
     $('#resource').on("click", function () {
 
-        $('html,body').animate({scrollTop: $(".resources").offset().top}, 500);
+        $('html,body').animate({scrollTop: $(".resources").offset().top - 90}, 500);
     });
-
+/*Tab effect*/
 
     $("#tabs").tabs({hide: {effect: "fade", duration: 300}, show: {effect: "fade", duration: 300},});
 
-    $('#tabs').tabs({ active: 0 });
+    $('#tabs').tabs({active: 0});
 
 })(jQuery);
 
@@ -87,31 +84,32 @@ function scrollFunction() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
+
 var myVar;
 
 function myFunction() {
     myVar = setTimeout(showPage, 3000);
-    document.body.style.background='black';
+    document.body.style.background = 'black';
 }
 
 function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("myDiv").style.display = "block";
-    document.body.style.background="fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bright_squares.png')";
+    document.body.style.background = "fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bright_squares.png')";
 }
 
-function showTime(){
+function showTime() {
     var date = new Date();
     var h = date.getHours(); // 0 - 23
     var m = date.getMinutes(); // 0 - 59
     var s = date.getSeconds(); // 0 - 59
     var session = "AM";
 
-    if(h == 0){
+    if (h == 0) {
         h = 12;
     }
 
-    if(h > 12){
+    if (h > 12) {
         h = h - 12;
         session = "PM";
     }
